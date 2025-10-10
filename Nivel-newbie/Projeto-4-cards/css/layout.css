@@ -1,46 +1,49 @@
-.container {
-    max-width: 1100px;
-    text-align: center;
+body {
     min-height: 100vh;
     display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
     padding: 2rem;
-  }
-  
-  .intro {
+}
+
+
+.container {
+    max-width: 1100px;
+    text-align: center;
+}
+
+.intro {
     max-width: 500px;
     margin: 0 auto 4rem;
-  }
-  
-  .intro h1 {
+}
+
+.intro h1 {
     font-weight: 200;
-    color: var(--clr-gray-blue);
+    color: var(--cor-neutral-400);
     font-size: 1.8rem;
-  }
-  
-  .intro h2 {
+}
+
+.intro h2 {
     font-weight: 600;
-    color: var(--clr-dark-blue);
+    color: var(--cor-neutral-500);
     font-size: 1.9rem;
     margin-bottom: 1rem;
-  }
-  
-  .intro p {
-    color: var(--clr-gray-blue);
+}
+
+.intro p {
+    color: var(--cor-neutral-400);
     font-size: 0.95rem;
     line-height: 1.5;
-  }
-  
-  .cards {
+}
+
+.cards {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 2rem;
     align-items: center;
-  }
-  
-  .card {
+}
+
+.card {
     background-color: white;
     border-radius: 8px;
     padding: 2rem;
@@ -49,51 +52,51 @@
     position: relative;
     border-top: 4px solid transparent;
     transition: transform 0.3s ease;
-  }
-  
-  .card:hover {
+}
+
+.card:hover {
     transform: translateY(-8px);
-  }
-  
-  .card h3 {
+}
+
+.card h3 {
     margin-bottom: 0.5rem;
     font-size: 1.1rem;
-    color: var(--clr-dark-blue);
-  }
-  
-  .card p {
+    color: var(--cor-neutral-500);
+}
+
+.card p {
     font-size: 0.9rem;
-    color: var(--clr-gray-blue);
+    color: var(--cor-neutral-400);
     line-height: 1.5;
     margin-bottom: 2rem;
-  }
-  
-  .card img {
+}
+
+.card img {
     width: 50px;
     height: 50px;
     position: absolute;
     right: 2rem;
     bottom: 2rem;
-  }
-  
-  .card-supervisor {
-    border-top-color: var(--clr-cyan);
-  }
-  
-  .card-team {
-    border-top-color: var(--clr-red);
-  }
-  
-  .card-karma {
-    border-top-color: var(--clr-orange);
-  }
-  
-  .card-calculator {
-    border-top-color: var(--clr-blue);
-  }
-  
-  .middle-cards {
+}
+
+.middle-cards {
     display: flex;
     flex-direction: column;
     gap: 2rem;
-  }
+}
+
+.card-supervisor {
+    border-top-color: var(--cor-primary-cyan);
+}
+
+.card-team {
+    border-top-color: var(--cor-primary-red);
+}
+
+.card-karma {
+    border-top-color: var(--cor-primary-orange);
+}
+
+.card-calculator {
+    border-top-color: var(--cor-primary-blue);
+}
