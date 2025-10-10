@@ -9,9 +9,10 @@
     --cor-neutral-400: hsl(212, 6%, 44%);
     --cor-neutral-500: hsl(234, 12%, 34%);
     --cor-white: hsl(0, 0%, 100%);
+    --cor-fundo: hsl(0, 0%, 98%);
 }
 
 body {
     font-family: "Poppins", sans-serif;
-    background-color: var(--cor-neutral-400);
+    background-color: var(--cor-fundo);
 }
