@@ -118,24 +118,24 @@ body {
   }
   
   .footer-links a {
-    color: var(--cor-primary-blue, #3b82f6);
+    color: var( #3b82f6);
     text-decoration: none;
     margin: 0 10px;
     transition: color 0.3s ease;
   }
   
   .footer-links a:hover {
-    color: var(--cor-primary-cyan, #06b6d4);
+    color: var( #06b6d4);
   }
   
   .footer-inspiration {
     font-size: 13px;
-    color: var(--cor-neutral-400, #ccc);
+    color: var( #ccc);
     margin-top: 8px;
   }
   
   .footer-inspiration a {
-    color: var(--cor-primary-orange, #f59e0b);
+    color: var( #f59e0b);
     text-decoration: none;
   }
   
