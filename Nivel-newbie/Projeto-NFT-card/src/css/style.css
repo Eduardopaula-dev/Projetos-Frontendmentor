@@ -5,7 +5,7 @@ body {
 
 .container {
     display: flex;
-    height: 100vh;
+    height: 80vh;
     justify-content: center;
     align-items: center;
 }
@@ -77,25 +77,69 @@ hr {
     background-color: var(--cor-primaria-500);
 }
 
-.footer {
+.footer-autor {
     display: flex;
     margin: 30px 0 0 20px;
     align-items: center;
     gap: 10px;
 }
 
-.footer .img-autor {
+.footer-autor .img-autor {
     width: 40px;
     border: 1px solid var(--cor-branca);
     border-radius: 50%;
 }
 
-.footer p {
+.footer-autor p {
     color: var(--cor-primaria-500);
     font-size: 14px;
     font-weight: 300;
 }
 
-.footer p strong {
+.footer-autor p strong {
     color: var(--cor-branca);
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 40px;
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+    font-size: 14px;
+}
+
+.footer-dev {
+    color: #fff;
+}
+
+.footer-links {
+    margin: 10px 0;
+}
+
+.footer-links a {
+    color: #3b82f6;
+    text-decoration: none;
+    margin: 0 10px;
+    transition: color 0.3s ease;
+}
+
+.footer-links a:hover {
+    color: #06b6d4;
+}
+
+.footer-inspiration {
+    font-size: 13px;
+    color: hsl(212, 6%, 44%);
+    margin-top: 8px;
+}
+
+.footer-inspiration a {
+    color: #f59e0b;
+    text-decoration: none;
+}
+
+.footer-inspiration a:hover {
+    text-decoration: underline;
 }
