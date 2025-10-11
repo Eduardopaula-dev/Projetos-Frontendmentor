@@ -1,5 +1,5 @@
 body {
-    min-height: 100vh;
+    height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -118,24 +118,24 @@ body {
   }
   
   .footer-links a {
-    color: var( #3b82f6);
+    color: #3b82f6;
     text-decoration: none;
     margin: 0 10px;
     transition: color 0.3s ease;
   }
   
   .footer-links a:hover {
-    color: var( #06b6d4);
+    color:  #06b6d4;
   }
   
   .footer-inspiration {
     font-size: 13px;
-    color: var( #ccc);
+    color: hsl(212, 6%, 44%);
     margin-top: 8px;
   }
   
   .footer-inspiration a {
-    color: var( #f59e0b);
+    color:  #f59e0b;
     text-decoration: none;
   }
   
