@@ -87,3 +87,44 @@ body {
     margin-top: 5%;
     font-weight: 600;
 }
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 40px;
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+    font-size: 14px;
+}
+
+
+.footer-links {
+    margin: 10px 0;
+}
+
+.footer-links a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+    transition: color 0.3s ease;
+}
+
+.footer-links a:hover {
+    color: hsl(212, 6%, 60%);
+}
+
+.footer-inspiration {
+    font-size: 13px;
+    color: hsl(212, 6%, 90%);
+    margin-top: 8px;
+}
+
+.footer-inspiration a {
+    color: #f59e0b;
+    text-decoration: none;
+}
+
+.footer-inspiration a:hover {
+    text-decoration: underline;
+}
