@@ -1,1 +1,106 @@
-/* arquivo limpo */
+.site-main {
+    max-width: 900px;
+    margin: 0 auto;
+    margin-top: 2rem;
+    padding: 2rem;
+}
+
+.hero {
+    background-color: var(--color-white);
+    padding: 3rem 2rem;
+    border-radius: 10px 10px 0 0;
+}
+
+.hero-title {
+    color: var(--color-teal-500);
+    font-size: 1.8rem;
+}
+
+.hero-subtitle {
+    color: var(--color-green-400);
+    font-weight: 700;
+    margin-top: 1rem;
+}
+
+.hero-text {
+    color: var(--color-gray-500);
+    margin-top: 1rem;
+    line-height: 1.6;
+}
+
+.pricing {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: var(--color-teal-500);
+    color: var(--color-white);
+    border-radius: 0 0 10px 10px;
+}
+
+.pricing-card {
+    padding: 2rem;
+}
+
+
+.pricing-card-left {
+    background-color: var(--color-teal-500);
+}
+
+.pricing-card-right {
+    background-color: hsl(179, 47%, 52%);
+}
+
+.pricing-price {
+    margin: 20px 0 20px;
+    font-size: 2rem;
+    font-weight: 700;
+    color: var(--color-white);
+}
+
+.pricing-price span {
+    font-size: 1rem;
+    margin-left: 10px;
+    text-align: center;
+    color: var(--color-teal-100);
+}
+
+.price-day {
+    margin-bottom: 1.5rem;
+    color: var(--color-teal-100);
+}
+
+.pricing-card-right ul {
+    list-style: none;
+    padding: 0;
+    margin-top: 1rem;
+    line-height: 1.8;
+}
+
+.pricing-card-right ul li {
+    color: var(--color-teal-100);
+}
+
+.btn {
+    display: inline-block;
+    padding: 0.8rem 2rem;
+    font-weight: 700;
+    border-radius: 6px;
+    transition: background 0.3s ease;
+    background-color: var(--color-green-400);
+    color: var(--color-white);
+    width: 100%;
+}
+
+.btn:active {
+    background-color: hsl(71, 73%, 50%);
+    transform: scale(0.98);
+}
+
+@media (max-width: 768px) {
+    .pricing {
+        grid-template-columns: 1fr;
+    }
+
+    .hero {
+        border-radius: 0;
+    }
+}

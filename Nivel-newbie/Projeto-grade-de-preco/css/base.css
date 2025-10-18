@@ -8,7 +8,7 @@ html {
 
 body {
   font-family: 'Karla', sans-serif;
-  background-color: var(--color-teal-100);
+  background-color: var(--color-gray-500);
   color: var(--color-gray-500);
 }
 
@@ -19,9 +19,16 @@ button {
   border: none;
 }
 
-h1, h2, h3 {
+h1, h2 {
   color: var(--color-teal-500);
   margin-top: 0;
+}
+
+h3 {
+  color: var( --color-white);
+  margin-top: 0;
+  font-size: 1.25rem;
+  font-weight: 700;
 }
 
 p {
