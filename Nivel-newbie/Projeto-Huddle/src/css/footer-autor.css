@@ -1,38 +1,43 @@
 .footer {
-    text-align: center;
-    background-color: #4b2d7f;
-    color: #fff;
-    margin: 20px 0;
-    padding: 25px 15px;
-    font-size: 14px;
-  }
-  
-  .footer-links {
-    margin: 10px 0;
-  }
-  
-  .footer-links a {
-    color: #3b82f6;
-    text-decoration: none;
-    margin: 0 10px;
-    transition: color 0.3s ease;
-  }
-  
-  .footer-links a:hover {
-    color:  #06b6d4;
-  }
-  
-  .footer-inspiration {
-    font-size: 13px;
-    color: hsl(212, 6%, 44%);
-    margin-top: 8px;
-  }
-  
-  .footer-inspiration a {
-    color:  #f59e0b;
-    text-decoration: none;
-  }
-  
-  .footer-inspiration a:hover {
-    text-decoration: underline;
-  }
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: #4b2d7f;
+  color: #fff;
+  margin: 20px 0;
+  padding: 25px 15px;
+  font-size: 14px;
+  height: 28vw;
+}
+
+.footer-links {
+  margin: 10px 0;
+}
+
+.footer-links a {
+  color: #3b82f6;
+  text-decoration: none;
+  margin: 0 10px;
+  transition: color 0.3s ease;
+}
+
+.footer-links a:hover {
+  color: #06b6d4;
+}
+
+.footer-inspiration {
+  font-size: 13px;
+  color: hsl(212, 6%, 44%);
+  margin-top: 8px;
+}
+
+.footer-inspiration a {
+  color: #f59e0b;
+  text-decoration: none;
+}
+
+.footer-inspiration a:hover {
+  text-decoration: underline;
+}
