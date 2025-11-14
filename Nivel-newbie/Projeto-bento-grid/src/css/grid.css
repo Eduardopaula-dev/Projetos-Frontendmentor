@@ -1,0 +1,44 @@
+.container {
+    display: grid;
+    gap: 1.5rem;
+
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: auto;
+
+    grid-template-areas:
+        "create      main       main          schedule"
+        "write       manage     posting        schedule"
+        "growth56    growth56   followers      followers";
+}
+
+.card-create {
+    grid-area: create;
+}
+
+.card-main {
+    grid-area: main;
+}
+
+.card-schedule-post {
+    grid-area: schedule;
+}
+
+.card-write-ai {
+    grid-area: write;
+}
+
+.card-multiple {
+    grid-area: manage;
+}
+
+.card-consistent {
+    grid-area: posting;
+}
+
+.card-growth {
+    grid-area: growth56;
+}
+
+.card-followers {
+    grid-area: followers;
+}
