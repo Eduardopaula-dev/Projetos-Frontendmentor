@@ -1,0 +1,157 @@
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: grid;
+    gap: 1.5rem;
+    padding-block: 3rem;
+
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: auto;
+}
+
+.card-create {
+    grid-column: 1 / 3;
+    grid-row: 1;
+}
+
+.card-main {
+    grid-column: 3 / 5;
+    grid-row: 1 / 3;
+}
+
+.card-schedule-post {
+    grid-column: 1 / 3;
+    grid-row: 2;
+}
+
+.card-write-ai {
+    grid-column: 1;
+    grid-row: 3;
+}
+
+.card-multiple {
+    grid-column: 2;
+    grid-row: 3;
+}
+
+.card-growth {
+    grid-column: 3;
+    grid-row: 3;
+}
+
+.card-consistent {
+    grid-column: 4;
+    grid-row: 3;
+}
+
+.card-followers {
+    grid-column: 1 / 5;
+    grid-row: 4;
+}
+
+.card {
+    background: var(--white);
+    padding: 2rem;
+    border-radius: var(--radius-lg);
+    box-shadow: var(--shadow-md);
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    overflow: hidden;
+}
+
+.card img {
+    width: 100%;
+}
+
+h1, h2 {
+    font-weight: 700;
+}
+
+h1 span, h2 span {
+    color: var(--purple-500);
+}
+
+.card-main {
+    background: var(--purple-500);
+    color: var(--white);
+    text-align: center;
+    justify-content: center;
+    padding: 3rem 2rem;
+}
+
+.card-main h1 {
+    font-size: var(--fs-700);
+}
+
+.card-main h1 span {
+    color: var(--yellow-500);
+}
+
+.card-main .stars {
+    width: 180px;
+    margin: 1rem auto;
+}
+
+.card-main p {
+    font-size: var(--fs-300);
+    opacity: 0.9;
+}
+
+.card-create h2 {
+    font-size: var(--fs-500);
+}
+
+.btn-create {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: var(--yellow-500);
+    padding: 1.2rem 1.6rem;
+    border-radius: var(--radius-md);
+    font-size: var(--fs-300);
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.btn-create img {
+    width: 80px;
+}
+
+.card-schedule-post h2 {
+    font-size: var(--fs-400);
+}
+
+.card-schedule-post p {
+    font-size: var(--fs-200);
+    opacity: 0.7;
+}
+
+.card-write-ai h2 {
+    font-size: var(--fs-400);
+}
+
+.card-multiple h2 {
+    font-size: var(--fs-300);
+}
+
+.card-growth {
+    background: var(--yellow-100);
+}
+
+.card-growth h2 {
+    font-size: var(--fs-500);
+}
+
+.card-consistent h2 {
+    font-size: var(--fs-300);
+}
+
+.card-followers h2 {
+    font-size: var(--fs-400);
+}
+
+.card-followers img {
+    width: 100%;
+    border-radius: var(--radius-sm);
+}
